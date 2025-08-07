@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Encrypted Summarizer",
+  "version": "1.0",
+  "description": "Summarize and encrypt any selected text via backend API.",
+  "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
